@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">©BLOG.</h1>
+      <nav class="top-nav" aria-label="Navegação principal">
+        <a href="#">Home</a>
+        <a href="#">Categorias</a>
+        <a href="#">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container site-main">
+    <div class="content">
+      <article class="post">
+        <div class="post-image">
+          <!-- você pode trocar a url abaixo por "images/post.jpg" caso salve localmente -->
+          <img src="img/f1.jpg" alt="Barco em lago entre montanhas">
+        </div>
+
+        <div class="post-body">
+          <h2 class="post-title">Ar Puro</h2>
+          <p class="post-excerpt">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit non, placeat quam accusamus velit a ad molestiae vitae praesentium, quae reiciendis!
+          </p>
+          <p class="post-meta"><strong>Por:</strong> Joao Carlos</p>
+          <a class="read-more" href="#">Ler mais</a>
+        </div>
+      </article>
+      <article class="post">
+        <div class="post-image">
+          <!-- você pode trocar a url abaixo por "images/post.jpg" caso salve localmente -->
+          <img src="img/f2.jpg" alt="cachooeira">
+        </div>
+
+        <div class="post-body">
+          <h2 class="post-title">Chuvisco da Cachooeira</h2>
+          <p class="post-excerpt">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit non, placeat quam accusamus velit a ad molestiae vitae praesentium, quae reiciendis!
+          </p>
+          <p class="post-meta"><strong>Por:</strong> Hebert Richerds</p>
+          <a class="read-more" href="#">Ler mais</a>
+        </div>
+      </article>
+      <article class="post">
+        <div class="post-image">
+          <!-- você pode trocar a url abaixo por "images/post.jpg" caso salve localmente -->
+          <img src="img/f3.jpg" alt="
+          Baloes coloridos no ceu">
+        </div>
+
+        <div class="post-body">
+          <h2 class="post-title">Baloes coloridos no ceu</h2>
+          <p class="post-excerpt">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit non, placeat quam accusamus velit a ad molestiae vitae praesentium, quae reiciendis!
+          </p>
+          <p class="post-meta"><strong>Por:</strong> FotografoAnonimo</p>
+          <a class="read-more" href="#">Ler mais</a>
+        </div>
+      </article>
+
+      <!-- Você pode duplicar <article> para mais posts -->
+    </div>
+
+    <aside class="sidebar" aria-label="Barra lateral">
+      <div class="widget search-widget">
+        <h3>Busca</h3>
+        <form id="searchForm">
+          <input type="search" id="searchInput" placeholder="Pesquise no blog" aria-label="Pesquisar">
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
+
+      <div class="widget categories-widget">
+        <h3>Categorias</h3>
+        <ul>
+          <li><a href="#">Paisagens</a></li>
+          <li><a href="#">Aventura</a></li>
+          <li><a href="#">Viagens longas</a></li>
+          <li><a href="#">Florestas</a></li>
+          <li><a href="#">Cachoeiras</a></li>
+        </ul>
+      </div>
+
+      <div class="widget tags-widget">
+        <h3>Tags</h3>
+        <div class="tags">
+          <a class="tag" href="#">Lifestyle</a>
+          <a class="tag" href="#">Viagem</a>
+          <a class="tag" href="#">Barco</a>
+          <a class="tag" href="#">Trilha</a>
+          <a class="tag" href="#">Tirolesa</a>
+          <a class="tag" href="#">Rafting</a>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer container">
+    <p>©Cristhian_Brasil</p>
+    <p>2025 — Meu Blog</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
